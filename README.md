@@ -3,17 +3,20 @@
 ## About
 The React Space Calculator is a web-based calculator application built using React. It allows users to perform basic arithmetic calculations such as addition, subtraction, multiplication, and division. The calculator also supports percentage calculations and can handle decimal numbers.
 
+**New Feature:**  
+- **Audio Feedback:** Each button click triggers a corresponding sound effect, enhancing user interaction and feedback.
+
 ## Features
-- Arithmetic Operations: Addition, subtraction, multiplication, division
-- Percentage Calculation: Quickly calculate percentages of numbers
-- All Clear Function: Clear all inputs and results with a single button
-- Responsive Design: Designed to be usable on both desktop and mobile devices
+- **Arithmetic Operations:** Addition, subtraction, multiplication, division
+- **Percentage Calculation:** Quickly calculate percentages of numbers
+- **All Clear Function:** Clear all inputs and results with a single button
+- **Responsive Design:** Designed to be usable on both desktop and mobile devices
 
 ## Technologies Used
-- **React**: Front-end JavaScript library for building user interfaces
-- **useState Hook**: Used for managing state within functional components
-- **CSS**: Styling for the calculator layout
-- **JavaScript (ES6+)**: Used for handling calculations and logic
+- **React:** Front-end JavaScript library for building user interfaces
+- **useState Hook:** Used for managing state within functional components
+- **CSS:** Styling for the calculator layout
+- **JavaScript (ES6+):** Used for handling calculations, logic, and integrating audio feedback
 
 ## How to Use
 1. **Clone the Repository:**
@@ -36,9 +39,10 @@ The React Space Calculator is a web-based calculator application built using Rea
    The application should open automatically in your default web browser. If not, navigate to `http://localhost:3000` in your browser.
 
 4. **Start Calculating:**
-   Use the buttons on the calculator interface to input numbers and perform calculations. Click "=" to see the result.
+   - Use the buttons on the calculator interface to input numbers and perform calculations.
+   - Each button click triggers an auditory feedback corresponding to the action performed.
 
-5. **Explore Additional Features:**
+5. **Additional Features:**
    - Use the "AC" button to clear all inputs and results.
    - Click "%" to calculate percentages.
    - The calculator supports chaining operations (e.g., 5 + 3 * 2).
@@ -52,7 +56,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 - This project was created as a learning exercise in React and modern front-end development.
 - Thanks to the React community for their valuable resources and tutorials.
-
----
-
-Adjust the sections and details as needed to accurately reflect your project. This README provides an overview of your React Space Calculator project, including its features, technologies used, how to run it, and how others can contribute.
