@@ -1,7 +1,3 @@
-Sure! Here's a README for your React Space Calculator project:
-
----
-
 # React Space Calculator
 
 ## About
