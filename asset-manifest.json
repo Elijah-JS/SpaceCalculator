@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/SpaceCalculator/static/css/main.e98fc47b.css",
-    "main.js": "/SpaceCalculator/static/js/main.427eeb66.js",
+    "main.js": "/SpaceCalculator/static/js/main.1e4ea4e9.js",
     "static/js/453.83bdee10.chunk.js": "/SpaceCalculator/static/js/453.83bdee10.chunk.js",
+    "static/media/highspeed.mp3": "/SpaceCalculator/static/media/highspeed.21eccad20156de3ed192.mp3",
+    "static/media/pulse-blaster.mp3": "/SpaceCalculator/static/media/pulse-blaster.8317d622d8c2d388075b.mp3",
+    "static/media/equal.mp3": "/SpaceCalculator/static/media/equal.b8181b36c62ddca8443a.mp3",
+    "static/media/delete.mp3": "/SpaceCalculator/static/media/delete.9eab5046dccc965be080.mp3",
+    "static/media/duh.mp3": "/SpaceCalculator/static/media/duh.2483cd1b08341b9fbe83.mp3",
     "index.html": "/SpaceCalculator/index.html",
     "main.e98fc47b.css.map": "/SpaceCalculator/static/css/main.e98fc47b.css.map",
-    "main.427eeb66.js.map": "/SpaceCalculator/static/js/main.427eeb66.js.map",
+    "main.1e4ea4e9.js.map": "/SpaceCalculator/static/js/main.1e4ea4e9.js.map",
     "453.83bdee10.chunk.js.map": "/SpaceCalculator/static/js/453.83bdee10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e98fc47b.css",
-    "static/js/main.427eeb66.js"
+    "static/js/main.1e4ea4e9.js"
   ]
 }
