@@ -118,35 +118,35 @@ function App() {
           {result ? <span className='result'>({result})</span> : ''}
           {calc || "0"}
         </div>
-        
+
         <div className="button-row">
           <button className="button" onClick={handleAllclear}>AC</button>
           <button className="button" onClick={deleteLast}>DE</button>
           <button className="button" onClick={handlePercent}>%</button>
           <button className="button" onClick={() => updateCalc('/')}>/</button>
         </div>
-        
+
         <div className="button-row">
           <button className="button" onClick={() => updateCalc('7')}>7</button>
           <button className="button" onClick={() => updateCalc('8')}>8</button>
           <button className="button" onClick={() => updateCalc('9')}>9</button>
           <button className="button" onClick={() => updateCalc('*')}>*</button>
         </div>
-        
+
         <div className="button-row">
           <button className="button" onClick={() => updateCalc('4')}>4</button>
           <button className="button" onClick={() => updateCalc('5')}>5</button>
           <button className="button" onClick={() => updateCalc('6')}>6</button>
           <button className="button" onClick={() => updateCalc('-')}>-</button>
         </div>
-        
+
         <div className="button-row">
           <button className="button" onClick={() => updateCalc('1')}>1</button>
           <button className="button" onClick={() => updateCalc('2')}>2</button>
           <button className="button" onClick={() => updateCalc('3')}>3</button>
           <button className="button" onClick={() => updateCalc('+')}>+</button>
         </div>
-        
+
         <div className="button-row">
           <button className="button" onClick={() => updateCalc('00')}>00</button>
           <button className="button" onClick={() => updateCalc('0')}>0</button>
