@@ -1,31 +1,36 @@
 import React, { useState } from 'react';
 import './App.css';
+import blaster from './assets/pulse-blaster.mp3';
+import duh from './assets/duh.mp3';
+import deleteSound from './assets/delete.mp3';
+import highspeed from './assets/highspeed.mp3';
+import equal from './assets/equal.mp3';
 
 function App() {
 
   // Functions to play click sounds
   const playClickSound = () => {
-    const audio = new Audio('/pulse-blaster.mp3');
+    const audio = new Audio(blaster);
     audio.volume = 0.05;
     audio.play();
   };
   const playClickSound2 = () => {
-    const audio = new Audio('/duh.mp3');
+    const audio = new Audio(duh);
     audio.volume = 0.4;
     audio.play();
   };
   const playClickSound3 = () => {
-    const audio = new Audio('/delete.mp3');
+    const audio = new Audio(deleteSound);
     audio.volume = 0.4;
     audio.play();
   };
   const playClickSound4 = () => {
-    const audio = new Audio('/highspeed.mp3');
+    const audio = new Audio(highspeed);
     audio.volume = 0.4;
     audio.play();
   };
   const playClickSound5 = () => {
-    const audio = new Audio('/equal.mp3');
+    const audio = new Audio(equal);
     audio.volume = 0.4;
     audio.play();
   };
